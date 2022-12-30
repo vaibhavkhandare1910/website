@@ -1,0 +1,259 @@
+/* 
+font-family: 'Audiowide', cursive;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Ubuntu', sans-serif;
+ */
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    opacity: 0.5;
+    
+}
+.nav-link:hover{
+    opacity: 1;
+}
+
+.navbar-nav{
+    margin: auto;
+
+}
+.navbar-toggler{
+    color: white;
+}
+
+h1{
+    margin-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    color: white;
+    
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+    }
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+    width: 100%;
+    height: auto;
+    
+    }
+    .profile-pic{
+      margin-left: 5rem;
+      width: 80%;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+    width: auto;
+    height: 100%;
+    }
+    .profile-pic{
+      width: 100%;
+    }
+}
+
+.auto-type{
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-family: 'Kelly Slab', cursive;  
+}
+
+#hero{
+    height: 50rem;
+}
+
+.footer-text{
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
+
+
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+.contact-img{
+    width: 60%;
+    margin-right: 2rem;
+}
+
+.input-field{
+    width: 30rem;
+    height: 40px;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 10px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 14px;
+    outline: none;
+}
+ 
+.form-textare{
+    height: 13rem;
+
+}
+
+.btn{
+    border-radius: 3rem;
+    font-size: 1rem;
+    width: 20rem;
+    color: black;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: aquamarine;
+
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.intro-text{
+    margin-top: 10rem;
+    margin-left:  3rem;
+    margin-right: 3rem; 
+    margin-bottom: 3rem;
+
+}
+
+
+
+.social{
+    margin-top: 3rem;
+    display: grid;
+    place-items: center;
+
+  }
+  .wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .button{
+    margin-left: 2rem;
+  }
+  .wrapper .button .iconn{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .iconn{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .iconn{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .iconn{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .iconn{
+    background: #333;
+  }
+  .wrapper .button:nth-child(5):hover .iconn{
+    background: #ff0000;
+  }
+  .wrapper .button .iconn i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .iconn i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+.icc{
+  font-size: 6rem;
+}
+
+.skills{
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 2.5rem;
+}
+
+.skillimage{
+  height: 5rem;
+}
+
+
+
+
+
+.navbar-toggler-icon{
+  background-image: url(/images/hb.png);
+}
+
